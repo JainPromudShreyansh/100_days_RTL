@@ -43,7 +43,7 @@ initial begin
 	$finish;
 end
 	initial begin
-	$monitor("Time=%0t,\tCin=%b,\tX=%b,,\tY=%b,\tCarry=%b,\tSum=%b",$time,Cin,X,Y,C,S);
+	$monitor("Time=%0t,\tCin=%b,\tX=%b,\tY=%b,\tCarry=%b,\tSum=%b",$time,Cin,X,Y,C,S);
 end
 endmodule
 
